@@ -1,0 +1,213 @@
+.nav-news {
+	width: 100%;
+	padding-bottom: 12px;
+	background: #ccc;
+	text-align: center;
+}
+.nav-news>img {
+	margin-top: -10px;
+}
+.nav-news strong {
+	margin-left: 20px;
+	margin-right: 60px;
+	font-size: 20px;
+	color: #333;
+}
+.nav-news i {
+	display: inline-block;
+	cursor: pointer;
+}
+.nav-news i img {
+	width: 100%;
+	height: 100%;
+}
+.news-title {
+	display: inline-block;
+	padding-top: 10px;
+	height: 40px;
+	line-height: 37px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.news-title li {
+	/*padding-bottom: 5px;*/
+	font-size: 18px;
+	color: #666;
+	margin-right: 5%;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	/*margin-top: -3px;*/
+}
+.news-title li:hover {
+	/*border-bottom: 1px solid #666;*/
+	text-decoration: underline;
+}
+.news-point {
+	display: inline-block;
+	width: 20px;
+}
+.banner {
+	overflow: hidden;
+	margin-top: 136px;
+}
+.trends-main {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.trends li:nth-child(odd) {
+	border-right: 1px dashed #ccc;
+}
+.trends li:nth-child(even) {
+	padding-left: 25px;
+}
+.trend {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.trends-pic {
+	width: 124px;
+	height: 94px;
+	float: left;
+	margin: 10px 0;
+	overflow: hidden;
+	border-radius: 4px;
+}
+.trends-pic img:hover {
+	transform: scale(1.3);
+	overflow: hidden;
+}
+.trends-pic img {
+	width: 100%;
+	border-radius: 4px;
+}
+.trends-state {
+	width: 63%;
+	display: inline-block;
+	float: left;
+	padding-left: 30px;
+}
+.trends-state h5 {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.trends-state h5:hover {
+	display: inline-block;
+	border-bottom: 1px solid #666;
+}
+.trends-state p {
+	font-size: 12px;
+	color: #999;
+}
+.doctor {
+	padding: 30px 0;
+	text-align: center;
+}
+.doctor h4 {
+	font-size: 20px;
+	color: #333;
+}
+.doctor-wapper li {
+	display: inline-block;
+	margin-top: 31px;
+	margin-bottom: 19px;
+}
+.doctor-wapper li p {
+	color: #999;
+	font-size: 16px;
+}
+.doctor-wapper li:hover p {
+	color: #36bbc7;
+}
+.doctor-wapper i {
+	display: inline-block;
+	width: 84px;
+	height: 84px;
+	/*border: 1px solid red;*/
+	margin-bottom: 19px;
+}
+.zhinan {
+	background: url("../images/zhinangongshi_03.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.doctor-wapper li:nth-child(1):hover .zhinan {
+	background: url("../images/zhinangongshi2_03.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.peixun {
+	background: url("../images/peixun_03.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.doctor-wapper li:nth-child(2):hover .peixun {
+	background: url("../images/peixun2_03.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.luntan {
+	background: url("../images/luntan_03.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.doctor-wapper li:nth-child(3):hover .luntan {
+	background: url("../images/luntan2_03.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.yiyouquan {
+	background: url("../images/yiyouquan_03.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.doctor-wapper li:nth-child(4):hover .yiyouquan {
+	background: url("../images/yiyouquan2_03.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.siren {
+	background: url("../images/sirenyisheng_03.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.doctor-wapper li:nth-child(5):hover .siren {
+	background: url("../images/sirenyisheng2_03.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.saoma {
+	background: url("../images/erweima_03.png") no-repeat center;
+	background-size: 100% 100%;
+}
+@media only screen and (max-width: 768px) {
+	.gfwx {
+		display: block !important;
+	}
+	.nav-news img {
+		width: 20px;
+		height: 20px;
+	}
+	.nav-news strong {
+		font-size: 16px;
+		margin: 0 10px;
+	}
+	.news-title {
+		width: 50%;
+	}
+	.news-title li {
+		font-size: 14px;
+		margin-right: 10px;
+		overflow: hidden;
+		text-overflow:ellipsis;
+	}
+	.news-point {
+		width: 14px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.trends li:nth-child(odd) {
+		border-right: none !important;
+		border-bottom: 1px dashed #ccc;
+	}
+	.trends li:nth-child(even) {
+		padding-left: 12px;
+	}
+	#trend2 {
+		border-bottom: 1px dashed #ccc;
+	}
+
+}

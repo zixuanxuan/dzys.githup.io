@@ -1,0 +1,81 @@
+.us-banner {
+  /*margin-top: 85px;*/
+  	margin-top: 138px;
+}
+.us-banner img {
+  width: 100%;
+}
+.about-main {
+  background-color: #ededeb;
+  padding: 20px 0;
+}
+.about-list {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.about-list li {
+  /*border: 1px solid red;*/
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  /*border-radius: 8px;*/
+}
+/*.about-active1 {
+  background: #36bbc7;
+  color: white;
+}*/
+
+.about-pic {
+  width: 26px;
+  height: 22px;
+  display: inline-block;
+  background-size: 100% 100%;
+}
+.about-pic1 {
+  background: url("../images/gongsijianjie1_03.png") no-repeat center;
+}
+.about-pic1-active {
+  background: url("../images/gongsijianjie_03.png") no-repeat center;
+}
+.about-pic2 {
+  background: url("../images/hezuohuoban1_03.png") no-repeat center;
+}
+.about-pic2-active {
+  background: url("../images/hezuohuoban_03.png") no-repeat center;
+}
+.about-pic3 {
+  background: url("../images/hezuoguanxi1_03.png") no-repeat center;
+}
+.about-pic3-active {
+  background: url("../images/hezuoguanxi_03.png") no-repeat center;
+}
+.about-list li:nth-child(2) {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.about-content {
+  background: #fff;
+  margin-left: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 30px 47px !important;
+}
+.about-content li:nth-child(1) span {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+.about-content li:nth-child(1) h5 {
+  text-align: center;
+  font-size: 22px;
+}
+.about-content li:nth-child(1) p {
+  line-height: 25px;
+}
+/*.about-state {
+  text-align: center;
+}*/

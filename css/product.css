@@ -1,0 +1,41 @@
+.product-banner img {
+    width: 100%;
+}
+.product-banner {
+    margin-top: 138px;
+}
+.product {
+  padding-top: 64px;
+}
+.product li img {
+  float: left;
+}
+.product li div {
+  float: left;
+  width: 70%;
+  margin-left: 10px;
+}
+.product li {
+  overflow: hidden;
+}
+.product li {
+  margin-bottom: 64px;
+}
+.product li a {
+  color: #000;
+}
+.product li div h5 {
+  font-size: 20px;
+}
+.daquan {
+  color: rgb(151, 205, 247);
+}
+.yuzhen {
+  color: rgb(181, 215, 162);
+}
+.jiancha {
+  color: rgb(254, 203, 135);
+}
+.fuwu {
+  color: rgb(253, 165, 150);
+}

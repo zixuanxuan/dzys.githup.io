@@ -1,0 +1,133 @@
+.main {
+    width: 100%;
+    background: #ededeb;
+    padding-bottom: 20px;
+    margin-top: 138px;
+}
+.main a {
+  color: #000;
+}
+.content-list {
+  background: #fff;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #999;
+}
+.content-list ul {
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 2px solid #ccc;
+}
+.content-list p {
+  margin-top: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.content-list p img {
+  margin-top: -20px;
+  margin-left: 5px;
+}
+.content {
+  background: #fff;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-shadow: 0 0 10px #999;
+  padding-bottom: 34px;
+}
+.content-list li {
+  margin: auto;
+  border: 1px solid yellow;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+.content-list li:hover .list-title {
+  top: 0;
+  transition: top 1s;
+  padding-top: 30px;
+}
+.list-pic img {
+  width: 100%;
+  height: 100%;
+}
+.list-title {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 70%;
+  font-size: 12px;
+  color: #fff;
+}
+.content li {
+  margin-bottom: 30px;
+}
+.news-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.news-state h6 {
+  font-size: 16px;
+}
+.news-state h6:hover {
+  text-decoration: underline;
+}
+.news-state p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 16px;
+}
+.news-state span {
+  font-size: 12px;
+  color: #999;
+
+}
+.content>p {
+  width: 180px;
+  /*border: 1px solid red;*/
+  margin-top: 33px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ccc;
+}
+.content img {
+  margin-right: 14px;
+}
+.page {
+  /*border: 1px solid red;*/
+  text-align: center;
+}
+.page span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #ccc;
+  margin-left: 9px;
+  font-size: 12px;
+  color: #999;
+  cursor: pointer;
+}
+.page span:hover {
+  background: #36bbc7;
+  border: 1px solid #36bbc7;
+  color: #fff;
+}
+.page font {
+  width: 30px;
+  height: 24px;
+  font-size: 12px;
+}
+.page input {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
